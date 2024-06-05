@@ -3,169 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Єлізавета Кучеренко"/>
-    <title>Гурт</title>
+    <title>Гурт ITZY</title>
     <style>
         body {
             background-color: #e6e6fa; /* Світло фіолетовий */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
         a {
             color: #ff69b4; /* Рожевий колір гіперпосилань */
+            text-decoration: none;
         }
         h1 {
             text-align: center;
             font-size: 2em;
             color: #4b0082; /* Індіго */
+            margin-top: 30px;
         }
-        p , ul {
+        h2 {
+            font-size: 2em;
+            color: #4b0082; /* Індіго */
+            margin-top: 20px;
+        }
+        p, ul {
             font-size: 1.5em;
             color: #4b0082; /* Індіго */
+            text-align: justify;
         }
         td {
             font-size: 1.5em;
-            color: black
+            color: black;
+            padding: 10px;
+            text-align: center;
         }
         .small-image {
             width: 50px;
             height: 50px;
+            border-radius: 50%;
+            border: 2px solid #4b0082; /* Індіго */
         }
         .large-image {
             width: 230px;
             height: 350px;
+            border-radius: 10px;
+            border: 2px solid #4b0082; /* Індіго */
         }
-        table, th, td {
-            border: 1px solid black;
+        table {
+            width: 100%;
+            margin: 20px 0; /* Відцентрувати таблицю */
             border-collapse: collapse;
+            border: 1px solid #4b0082; /* Індіго */
         }
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;}
         th, td {
+            border: 1px solid #4b0082; /* Індіго */
             padding: 10px;
             text-align: center;
         }
         th {
             background-color: #dda0dd; /* Фіолетовий */
+            color: #4b0082; /* Індіго */
+            font-weight: bold;
         }
-        table {
-            margin: 20px auto; /* Відцентрувати таблицю */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        nav {
+            text-align: center; /* Вирівняти навігаційне меню по центру */
+            margin-top: 20px; /* Відступи від верхнього контенту */
+            font-size: 1.2em; /* Збільшити розмір тексту посилань */
         }
     </style>
 </head>
 <body>
-<h1>Інформація про учасниць</h1>
+<div class="container">
+    <h1>Інформація про учасниць гурту ITZY</h1>
+    <nav>
+        <a href="photo.html">Галерея</a> |
+        <a href="contacts.html">Контакти</a> |
+        <a href="index.html">Головна сторінка</a> |
+        <a href="https://itzy.jype.com" target="_blank">Офіційний сайт ITZY</a>
+    </nav>
+
+    <!-- Таблиця з фотографіями та інформацією -->
+    <table>
+        <tr>
+            <th>Фото</th>
+            <th>Ім'я</th>
+            <th>Instagram</th>
+            <th>Дата народження</th>
+            <th>Позиція в групі</th>
+        </tr>
+        <tr>
+            <td><img src="https://i.pinimg.com/564x/d5/cc/67/d5cc67b48bf95420ff9a01243fb1e1ef.jpg" alt="Yeji" class="small-image"></td>
+            <td><strong>Yeji</strong></td>
+            <td><a href="https://www.instagram.com/yezyizhere/" target="_blank">@yeji</a></td>
+            <td>26 травня 2000</td>
+            <td>Лідер, Головний танцівник, Вокаліст, Репер</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.pinimg.com/236x/17/3d/a4/173da4110cbc9a1ab17a58fc3470c9e1.jpg" alt="Lia" class="small-image"></td>
+            <td><strong>Lia</strong></td>
+            <td><a href="https://www.instagram.com/lia_loves___/" target="_blank">@lia</a></td>
+            <td>21 липня 2000</td>
+            <td>Головний вокаліст</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.pinimg.com/236x/3e/0f/fa/3e0ffa20ba1ff849ed0ec597b9dc99fd.jpg" alt="Ryujin" class="small-image"></td>
+            <td><strong>Ryujin</strong></td>
+            <td><a href="https://www.instagram.com/iamfinethankyouandryu/" target="_blank">@ryujin</a></td>
+            <td>17 квітня 2001</td>
+            <td>Головний репер, Головний танцівник</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.pinimg.com/236x/c2/29/c2/c229c219c9f95de1d426764b09ae73cb.jpg" alt="Chaeryeong" class="small-image"></td>
+            <td><strong>Chaeryeong</strong></td>
+            <td><a href="https://www.instagram.com/chaerrry0/" target="_blank">@chaeryeong</a></td>
+            <td>5 червня 2001</td>
+            <td>Танцівник, Вокаліст, Репер</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.pinimg.com/236x/dc/47/af/dc47afaa5abc5d3f16caca918a70b451.jpg" alt="Yuna" class="small-image"></td>
+            <td><strong>Yuna</strong></td>
+            <td><a href="https://www.instagram.com/igotyuandme/" target="_blank">@yuna</a></td>
+            <td>9 грудня 2003</td>
+            <td>Вокаліст, Візуал, Макне</td>
+        </tr>
+    </table>
+
+
+    <!-- Біографічна інформація та цікаві факти -->
+    <div class="center">
+        <h2>Yeji</h2>
+        <img src="https://i.pinimg.com/474x/fe/88/5e/fe885ef3107078cd425ab4c034784800.jpg" alt="Yeji"  class="large-image">
+        <p>Yeji, справжнє ім'я Hwang Yeji, народилася <em>26 травня 2000</em> року в Чонджу, Південна Корея. Вона є <strong>лідером, головним танцівником, вокалістом та репером ITZY</strong>. Yeji відома своєю харизмою та енергією на сцені. Вона приєдналася до JYP Entertainment у 2016 році.</p>
+        <p><strong>Цікаві факти:</strong></p>
+        <ul>
+            <li>Yeji відома своєю здатністю швидко вивчати нові танцювальні рухи.</li>
+            <li>Вона також вміє грати на піаніно.</li>
+            <li>Yeji брала участь у шоу "The Fan" перед своїм дебютом.</li>
+            <li>Її улюблений колір - червоний.</li>
+        </ul>
+
+        <h2>Lia</h2>
+        <img src="https://i.pinimg.com/236x/ba/5d/de/ba5ddecc492f049b49c524542def6e3e.jpg" alt="Lia" class="large-image">
+        <p>Lia, справжнє ім'я Choi Jisu, народилася <em>21 липня 2000</em> року в Інчхоні, Південна Корея. Вона є <strong>головним вокалістом ITZY</strong>. Lia привернула увагу своїм сильним і мелодійним голосом. Вона навчалася в міжнародній школі в Канаді перед тим, як приєднатися до JYP Entertainment.</p>
+        <p><strong>Цікаві факти:</strong></p>
+        <ul>
+            <li>Lia вільно володіє англійською мовою.</li>
+            <li>Вона любить малювати і читати книги у вільний час.</li>
+            <li>Lia є великою фанаткою Harry Potter.</li>
+            <li>Вона навчалася в Seoul Performing Arts High School.</li>
+        </ul>
+
+        <h2>Ryujin</h2>
+        <img src="https://i.pinimg.com/236x/ba/71/f5/ba71f594cc53e3befa2cfb2531edface.jpg" alt="Ryujin" class="large-image">
+        <p>Ryujin, справжнє ім'я Shin Ryujin, народилася <em>17 квітня 2001</em> року в Сеулі, Південна Корея. Вона є <strong>головним репером і головним танцівником ITZY</strong>. Ryujin отримала визнання завдяки своїй участі в шоу "MIXNINE", де вона зайняла перше місце серед дівчат. Вона приєдналася до JYP Entertainment у 2015 році.</p>
+        <p><strong>Цікаві факти:</strong></p>
+        <ul>
+            <li>Ryujin має чорний пояс з таеквондо.</li>
+            <li>Вона захоплюється фотографією.</li>
+            <li>Ryujin з'являлася у кліпі BTS "Love Yourself Highlight Reel".</li>
+            <li>Вона має прізвисько "<em>Ryujingulli</em>" через її здатність зберігати рівновагу під час складних танців.</li>
+        </ul>
+
+        <h2>Chaeryeong</h2>
+        <img src="https://i.pinimg.com/236x/ac/c6/57/acc6577b9cd6e40c170b5636555febd9.jpg" alt="Chaeryeong" class="large-image">
+        <p>Chaeryeong, справжнє ім'я Lee Chaeryeong, народилася <em>5 червня 2001</em> року в Йон'ін, Південна Корея. Вона є <strong>танцівником, вокалістом і репером ITZY</strong>. Chaeryeong тренувалася понад п'ять років, перш ніж дебютувати в ITZY. Вона також брала участь у шоу "K-pop Star 3" та "Sixteen".</p>
+        <p><strong>Цікаві факти:</strong></p>
+        <ul>
+            <li>Chaeryeong відома своїм граціозним та плавним танцювальним стилем.</li>
+            <li>Вона має старшу сестру, Lee Chaeyeon, яка також є айдолом.</li>
+            <li>Chaeryeong захоплюється кулінарією і часто готує для інших учасниць групи.</li>
+            <li>Вона любить дивитися фільми у вільний час.</li>
+        </ul>
+
+        <h2>Yuna</h2>
+        <img src="https://i.pinimg.com/236x/01/00/5f/01005f6b8b21802be3fa59a63133c84a.jpg" alt="Yuna" class="large-image">
+        <p>Yuna, справжнє ім'я Shin Yuna, народилася <em>9 грудня 2003</em> року в Сувоні, Південна Корея. Вона є <strong>вокалістом, візуалом і макне ITZY</strong>. Yuna відома своїм яскравим і радісним характером. Вона була виявлена JYP Entertainment на фан-зустрічі і приєдналася до компанії у 2016 році.</p>
+        <p><strong>Цікаві факти:</strong></p>
+        <ul>
+            <li>Yuna була спортсменкою і займалася футболом до вступу в JYP.</li>
+            <li>Вона має талант до акторської гри і мріє знятися в драмі.</li>
+            <li>Yuna брала участь у кліпі BTS "Highlight Reel".</li>
+            <li>Її улюблений колір - рожевий.</li>
+        </ul>
+    </div>
+</div>
 <nav>
     <a href="photo.html">Галерея</a> |
     <a href="contacts.html">Контакти</a> |
     <a href="index.html">Головна сторінка</a> |
     <a href="https://itzy.jype.com" target="_blank">Офіційний сайт ITZY</a>
 </nav>
-
-<!-- Таблиця з фотографіями та інформацією -->
-<table>
-    <tr>
-        <th>Фото</th>
-        <th>Ім'я</th>
-        <th>Instagram</th>
-        <th>Дата народження</th>
-        <th>Позиція в групі</th>
-    </tr>
-    <tr>
-        <td><img src="https://i.pinimg.com/564x/d5/cc/67/d5cc67b48bf95420ff9a01243fb1e1ef.jpg" alt="Yeji" class="small-image"></td>
-        <td>Yeji</td>
-        <td><a href="https://www.instagram.com/yezyizhere/" target="_blank">@yeji</a></td>
-        <td>26 травня 2000</td>
-        <td>Лідер, Головний танцівник, Вокаліст, Репер</td>
-    </tr>
-    <tr>
-        <td><img src="https://i.pinimg.com/236x/17/3d/a4/173da4110cbc9a1ab17a58fc3470c9e1.jpg" alt="Lia" class="small-image"></td>
-        <td>Lia</td>
-        <td><a href="https://www.instagram.com/lia_loves___/" target="_blank">@lia</a></td>
-        <td>21 липня 2000</td>
-        <td>Головний вокаліст</td>
-    </tr>
-    <tr>
-        <td><img src="https://i.pinimg.com/236x/3e/0f/fa/3e0ffa20ba1ff849ed0ec597b9dc99fd.jpg" alt="Ryujin" class="small-image"></td>
-        <td>Ryujin</td>
-        <td><a href="https://www.instagram.com/iamfinethankyouandryu/" target="_blank">@ryujin</a></td>
-        <td>17 квітня 2001</td>
-        <td>Головний репер, Головний танцівник</td>
-    </tr>
-    <tr>
-        <td><img src="https://i.pinimg.com/236x/c2/29/c2/c229c219c9f95de1d426764b09ae73cb.jpg" alt="Chaeryeong" class="small-image"></td>
-        <td>Chaeryeong</td>
-        <td><a href="https://www.instagram.com/chaerrry0/" target="_blank">@chaeryeong</a></td>
-        <td>5 червня 2001</td>
-        <td>Танцівник, Вокаліст, Репер</td>
-    </tr>
-    <tr>
-        <td><img src="https://i.pinimg.com/236x/dc/47/af/dc47afaa5abc5d3f16caca918a70b451.jpg" alt="Yuna" class="small-image"></td>
-        <td>Yuna</td>
-        <td><a href="https://www.instagram.com/igotyuandme/" target="_blank">@yuna</a></td>
-        <td>9 грудня 2003</td>
-        <td>Вокаліст, Візуал, Макне</td>
-    </tr>
-</table>
-
-
-<!-- Біографічна інформація та цікаві факти -->
-<div class="center">
-<h2>Yeji</h2>
-<img src="https://i.pinimg.com/474x/fe/88/5e/fe885ef3107078cd425ab4c034784800.jpg" alt="Yeji"  class="large-image">
-<p>Yeji, справжнє ім'я Hwang Yeji, народилася 26 травня 2000 року в Чонджу, Південна Корея. Вона є лідером, головним танцівником, вокалістом та репером ITZY. Yeji відома своєю харизмою та енергією на сцені. Вона приєдналася до JYP Entertainment у 2016 році.</p>
-<p><strong>Цікаві факти:</strong></p>
-<ul>
-    <li>Yeji відома своєю здатністю швидко вивчати нові танцювальні рухи.</li>
-    <li>Вона також вміє грати на піаніно.</li>
-    <li>Yeji брала участь у шоу "The Fan" до свого дебюту.</li>
-    <li>Вона має прізвисько "Йеджус" через її здатність справляти враження супергероя на сцені.</li>
-</ul>
-
-<h2>Lia</h2>
-<img src="https://i.pinimg.com/236x/ba/5d/de/ba5ddecc492f049b49c524542def6e3e.jpg" alt="Lia">
-<p>Lia, справжнє ім'я Choi Jisu, народилася 21 липня 2000 року в Інчхоні, Південна Корея. Вона є головним вокалістом ITZY. Lia привернула увагу своїм сильним і мелодійним голосом. Вона навчалася в міжнародній школі в Канаді перед тим, як приєднатися до JYP Entertainment.</p>
-<p><strong>Цікаві факти:</strong></p>
-<ul>
-    <li>Lia вільно володіє англійською мовою.</li>
-    <li>Вона любить малювати і читати книги у вільний час.</li>
-    <li>Lia є великою фанаткою Harry Potter.</li>
-    <li>Вона навчалася в Seoul Performing Arts High School.</li>
-</ul>
-
-<h2>Ryujin</h2>
-<img src="https://i.pinimg.com/236x/ba/71/f5/ba71f594cc53e3befa2cfb2531edface.jpg" alt="Ryujin" >
-<p>Ryujin, справжнє ім'я Shin Ryujin, народилася 17 квітня 2001 року в Сеулі, Південна Корея. Вона є головним репером і головним танцівником ITZY. Ryujin отримала визнання завдяки своїй участі в шоу "MIXNINE", де вона зайняла перше місце серед дівчат. Вона приєдналася до JYP Entertainment у 2015 році.</p>
-<p><strong>Цікаві факти:</strong></p>
-<ul>
-    <li>Ryujin має чорний пояс з таеквондо.</li>
-    <li>Вона захоплюється фотографією.</li>
-    <li>Ryujin з'являлася у кліпі BTS "Love Yourself Highlight Reel".</li>
-    <li>Вона має прізвисько "Ryujingulli" через її здатність зберігати рівновагу під час складних танців.</li>
-</ul>
-
-<h2>Chaeryeong</h2>
-<img src="https://i.pinimg.com/236x/ac/c6/57/acc6577b9cd6e40c170b5636555febd9.jpg" alt="Chaeryeong" >
-<p>Chaeryeong, справжнє ім'я Lee Chaeryeong, народилася 5 червня 2001 року в Йон'ін, Південна Корея. Вона є танцівником, вокалістом і репером ITZY. Chaeryeong тренувалася понад п'ять років, перш ніж дебютувати в ITZY. Вона також брала участь у шоу "K-pop Star 3" та "Sixteen".</p>
-<p><strong>Цікаві факти:</strong></p>
-<ul>
-    <li>Chaeryeong відома своїм граціозним та плавним танцювальним стилем.</li>
-    <li>Вона має старшу сестру, Lee Chaeyeon, яка також є айдолом.</li>
-    <li>Chaeryeong захоплюється кулінарією і часто готує для інших учасниць групи.</li>
-    <li>Вона любить дивитися фільми у вільний час.</li>
-</ul>
-
-<h2>Yuna</h2>
-<img src="https://i.pinimg.com/236x/01/00/5f/01005f6b8b21802be3fa59a63133c84a.jpg" alt="Yuna">
-<p>Yuna, справжнє ім'я Shin Yuna, народилася 9 грудня 2003 року в Сувоні, Південна Корея. Вона є вокалістом, візуалом і макне ITZY. Yuna відома своїм яскравим і радісним характером. Вона була виявлена JYP Entertainment на фан-зустрічі і приєдналася до компанії у 2016 році.</p>
-<p><strong>Цікаві факти:</strong></p>
-<ul>
-    <li>Yuna була спортсменкою і займалася футболом до вступу в JYP.</li>
-    <li>Вона має талант до акторської гри і мріє знятися в драмі.</li>
-    <li>Yuna брала участь у кліпі BTS "Highlight Reel".</li>
-    <li>Її улюблений колір - рожевий.</li>
-</ul>
-    </div>
-
 </body>
 </html>
