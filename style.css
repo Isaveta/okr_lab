@@ -1,0 +1,83 @@
+body {
+    background-color: #e6e6fa; /* Світло фіолетовий */
+    max-width: 800px; /* Обмежити ширину контенту */
+    margin: 0 auto; /* Відцентрувати контент на сторінці */
+    padding: 20px; /* Додати відступи навколо контенту */
+}
+a {
+    color: #ff69b4; /* Рожевий колір гіперпосилань */
+    text-decoration: none; /* Видалити підкреслення */
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #4b0082; /* Індіго */
+    margin-top: 30px;
+}
+p, tr {
+    font-size: 1.5em;
+    color: #4b0082; /* Індіго */
+    line-height: 1.5; /* Міжрядковий інтервал */
+}
+.small-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    margin: 10px; /* Відступи навколо зображень */
+}
+.large-image {
+    width: 211px;
+    height: 211px;
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    margin: 10px; /* Відступи навколо зображень */
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px; /* Додатковий відступ між елементами */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-container img {
+    width: 211px;
+    height: 211px;
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    margin: 10px; /* Відступи навколо зображень */
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%; /* Розтягнути таблицю на всю ширину контейнера */
+    margin-bottom: 20px; /* Додатковий відступ після таблиці */
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #dda0dd; /* Фіолетовий */
+}
+nav {
+    text-align: center; /* Вирівняти навігаційне меню по центру */
+    margin-top: 20px; /* Відступи від верхнього контенту */
+    font-size: 1.2em; /* Збільшити розмір тексту посилань */
+}
+.video-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
