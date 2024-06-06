@@ -39,6 +39,7 @@ p, tr {
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px; /* Додатковий відступ між елементами */
+
 }
 .image-container {
     display: flex;

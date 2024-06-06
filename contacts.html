@@ -12,26 +12,31 @@
             margin: 0;
             padding: 0;
         }
+
         a {
             color: #ff69b4; /* Рожевий колір гіперпосилань */
             text-decoration: none;
         }
+
         h1 {
             text-align: center;
             font-size: 2em;
             color: #4b0082; /* Індіго */
             margin-top: 30px;
         }
+
         p {
             font-size: 1.5em;
             color: #4b0082; /* Індіго */
             line-height: 1.5; /* Міжрядковий інтервал */
             text-align: center;
         }
+
         .contact-info {
             text-align: center;
             margin: 20px;
         }
+
         .contact-info img {
             width: 300px;
             height: auto;
@@ -39,12 +44,24 @@
             border: 2px solid #4b0082; /* Індіго */
             margin-top: 20px;
         }
-        nav {
+
+        nav {  /* контекстний селектор */
             text-align: center; /* Вирівняти навігаційне меню по центру */
             margin-top: 20px; /* Відступи від верхнього контенту */
             font-size: 1em; /* Збільшити розмір тексту посилань */
         }
 
+        nav a {  /* дочірній селектор */
+            padding: 5px 10px; /* Відступи внутрішньої частини посилань */
+            margin: 0 5px; /* Зовнішні відступи між посиланнями */
+            border-radius: 5px; /* Закруглені кути посилань */
+            background-color: #ff69b4; /* Рожевий колір фону посилань */
+            color: #fff; /* Колір тексту посилань */
+        }
+
+        nav a:hover { /* сусідній селектор */
+            background-color: #4b0082; /* Індіго при наведенні */
+        }
     </style>
 </head>
 <body>
