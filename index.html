@@ -6,21 +6,51 @@
     <title>Головна сторінка</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        nav {
-    text-align: center; /* Вирівняти навігаційне меню по центру */
-    margin-top: 20px; /* Відступи від верхнього контенту */
-    font-size: 1.2em; /* Збільшити розмір тексту посилань */
-    }
-    nav a {
-    padding: 5px 10px; /* Відступи внутрішньої частини посилань */
-    margin: 0 5px; /* Зовнішні відступи між посиланнями */
-    border-radius: 5px; /* Закруглені кути посилань */
-    background-color: #ff69b4; /* Рожевий колір фону посилань */
-    color: #fff; /* Колір тексту посилань */
-    }
-    nav a:hover {
-    background-color: #4b0082; /* Індіго при наведенні */
-    }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .left-column {
+            width: 41%;
+            float: left;
+            background-color: #dda0dd; /* Фіолетовий */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .right-column {
+            width: 45%;
+            float: right;
+            background-color: #dda0dd; /* Фіолетовий */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .right-column p:first-child {
+            font-weight: bold;
+            color: #4b0082; /* Індіго */
+            text-align: center;
+        }
+
+        .right-column p::before {
+            content: "🌟 ";
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        span.highlight {
+            background-color: #ff69b4; /* Рожевий */
+            padding: 5px;
+            border-radius: 3px;
+        }
+
         </style>
 </head>
 <body>
@@ -131,11 +161,29 @@
 <div class="video-container">
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DYS1MbnAqMU" frameborder="0" allowfullscreen></iframe>
 </div>
+
+    <div class="content">
+        <div class="left-column">
+            <h2>Фірмове привітання ITZY</h2>
+            <p>All in us! Вітаємо, з вами ITZY!</p>
+
+        </div>
+        <div class="right-column">
+            <h2>Цікаві факти про кантидатів в ITZY</h2>
+            <p>Кандидатами в ITZY були такі айдоли, як <span class="highlight">Лілі (NMIXX), Маширо (Kep1er) та Лі Чейон (IZ*ONE)</span></p>
+            <p>Коли планувався дебют ITZY, лише одна із сестер Лі Черьон та Лі Чейон могла потрапити до групи.<span class="highlight">Заради сестри Чейон покинула компанію</span>, щоб Черьон змогла дебютувати</p>
+            <p>Кандидатом в ITZY також була <span class="highlight">Чон Сомі</span>. Але за декілька місяців до дебюту вона пішла з компанії, і на її місце стала Юна яка була наступною рейтингу найкращіх претендентів в ITZY</p>
+
+        </div>
+
+        <div class="clear"></div>
+    </div>
 <nav>
     <a href="group_info.html">Інформація про учасниць</a> |
     <a href="contacts.html">Контакти</a> |
     <a href="photo.html">Галерея</a> |
     <a href="https://itzy.jype.com" target="_blank">Офіційний сайт ITZY</a>
 </nav>
+
 </body>
 </html>
