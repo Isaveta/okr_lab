@@ -4,6 +4,7 @@ body {
     margin: 0 auto; /* Відцентрувати контент на сторінці */
     padding: 20px; /* Додати відступи навколо контенту */
 }
+
 a {
     color: #ff69b4; /* Рожевий колір гіперпосилань */
     text-decoration: none; /* Видалити підкреслення */
@@ -14,11 +15,13 @@ h1 {
     color: #4b0082; /* Індіго */
     margin-top: 30px;
 }
+
 p, tr {
     font-size: 1.5em;
     color: #4b0082; /* Індіго */
     line-height: 1.5; /* Міжрядковий інтервал */
 }
+
 .small-image {
     width: 50px;
     height: 50px;
@@ -100,4 +103,22 @@ nav a:hover {
 
 a:hover {
     text-decoration: underline; /* Підкреслений при наведенні */
+}
+/* Загальні стилі */
+
+
+/* Стилі для кнопок */
+button {
+    padding: 10px 20px; /* Відступи внутрішньої частини кнопок */
+    margin: 10px; /* Зовнішні відступи між кнопками */
+    border-radius: 5px; /* Закруглені кути кнопок */
+    background-color: #ff69b4; /* Рожевий колір фону кнопок */
+    color: #fff; /* Колір тексту кнопок */
+    border: none; /* Відсутність рамки */
+    cursor: pointer; /* Змінити курсор при наведенні */
+    font-size: 1em; /* Розмір тексту кнопок */
+}
+
+button:hover {
+    background-color: #4b0082; /* Індіго при наведенні */
 }
