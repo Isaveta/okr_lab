@@ -23,7 +23,7 @@ function userDialog() {
 }
 
 // Функція для виведення інформації про розробника
-function showDeveloperInfo(lastName, firstName, position = 'Web Developer') {
+function showDeveloperInfo(lastName, firstName, position= 'Web Developer') {
     alert("Інформація про розробника:\n\nПрізвище: " + lastName + "\nІм'я: " + firstName + "\nПосада: " + position);
 }
 
@@ -110,6 +110,7 @@ var eventHandler = {
         alert("Спрацював обробник на елементі: " + event.currentTarget.tagName);
     }
 };
+
 
 // Клас для обробки подій mouseover і mouseout
 class EventHandler {
@@ -212,3 +213,5 @@ menu.addEventListener('click', function(event) {
         }
     }
 });
+
+

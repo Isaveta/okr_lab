@@ -1,24 +1,24 @@
 body {
-    background-color: #e6e6fa; /* Світло фіолетовий */
+    background-color: #e6e6fa;
     max-width: 800px; /* Обмежити ширину контенту */
     margin: 0 auto; /* Відцентрувати контент на сторінці */
     padding: 20px; /* Додати відступи навколо контенту */
 }
 
 a {
-    color: #ff69b4; /* Рожевий колір гіперпосилань */
+    color: #ff69b4; /* колір гіперпосилань */
     text-decoration: none; /* Видалити підкреслення */
 }
 h1 {
     text-align: center;
     font-size: 2em;
-    color: #4b0082; /* Індіго */
+    color: #4b0082;
     margin-top: 30px;
 }
 
 p, tr {
     font-size: 1.5em;
-    color: #4b0082; /* Індіго */
+    color: #4b0082;
     line-height: 1.5; /* Міжрядковий інтервал */
 }
 
@@ -68,7 +68,7 @@ th, td {
     text-align: center;
 }
 th {
-    background-color: #dda0dd; /* Фіолетовий */
+    background-color: #dda0dd;
 }
 nav {
     text-align: center; /* Вирівняти навігаційне меню по центру */
@@ -125,4 +125,8 @@ button:hover {
 
 .active {
     background-color: yellow; /* Призначте потрібний колір підсвічування */
+}
+
+.image-containers {
+    text-align: center;
 }
