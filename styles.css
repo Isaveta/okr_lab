@@ -44,25 +44,6 @@ p, ul, li {
     text-align: justify;
 }
 
-/* Таблиці */
-table {
-    width: 100%;
-    margin: 20px 0;
-    border-collapse: collapse;
-    border: 1px solid #4b0082;
-}
-
-th, td {
-    border: 1px solid #4b0082;
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: #dda0dd;
-    color: #4b0082;
-    font-weight: bold;
-}
 
 /* Центрування елементів */
 .center {
@@ -73,7 +54,7 @@ th {
     margin-top: 30px;
 }
 
-/* Навігаційне меню */
+/* меню */
 nav {
     text-align: center;
     margin-top: 20px;
@@ -135,4 +116,24 @@ ol.facts {
     height: 350px;
     border-radius: 10px;
     border: 2px solid #4b0082;
+}
+
+/* Дочірні селектори */
+.container > h1 {
+    font-size: 2.5em;
+    color: #ce1170;
+}
+
+nav > a {
+    font-weight: bold;
+    color: darkorange;
+}
+
+/* Сусідні селектори */
+dt + dd {
+    margin-left: 40px;
+}
+/* Контекстний селектор */
+div i {
+    color: #e591e8;
 }
